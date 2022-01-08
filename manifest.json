@@ -1,0 +1,64 @@
+
+addEventListener("fetch", event => {
+  const data = {
+       "name": "WORLD IT BLOG",
+         "short_name": "worlditblog",
+           "description": "Wellcom To WorldItBlog Web Apps",
+             "lang": "en-US",
+               "display": "standalone",
+                 "background_color": "#ffffff",
+                   "start_url": "/",
+                     "theme_color": "#ffffff",
+                       "orientation": "portrait",
+                         "icons": [
+                             {
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEjvJ7NAYBHH_KxlPHTo6DoIkVjaPbCM0VCjHq4wWTKdcELS6ttVjLtuj2GPuyd1wwtGxfYSEyDioWtOv7LaxMN4mpaY5qg4dm8kQn1Tnbaq6ncLpQmAi8xWM9e9QWCC_Cg0TCMupBXCDhBi1F3NKPjR_BSiu36m0XNpM0gvgOCTADkJGPwUNDAgZ2Sr=s16000",
+      "sizes": "32x32"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEiFzdsljRzY4o1AX8cLozbhQTD64HAAzOs0LEilly5lWPoHoxIY6AvwDwjJxBg7VbkrC_-Kzy_UoDfpjuoq62wsTJ42hUx8GBRcbQ2vy-fu7Q7LuCPo0-OABH7jAnL-ZfHAGOI8vgxOE2_gtDtXPRvlNfHj3S2XcYDcCigtyoiez5SPJYTqzgWu0_-Z=s16000",
+      "sizes": "72x72"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEiFzdsljRzY4o1AX8cLozbhQTD64HAAzOs0LEilly5lWPoHoxIY6AvwDwjJxBg7VbkrC_-Kzy_UoDfpjuoq62wsTJ42hUx8GBRcbQ2vy-fu7Q7LuCPo0-OABH7jAnL-ZfHAGOI8vgxOE2_gtDtXPRvlNfHj3S2XcYDcCigtyoiez5SPJYTqzgWu0_-Z=s16000",
+      "sizes": "96x96"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEiFzdsljRzY4o1AX8cLozbhQTD64HAAzOs0LEilly5lWPoHoxIY6AvwDwjJxBg7VbkrC_-Kzy_UoDfpjuoq62wsTJ42hUx8GBRcbQ2vy-fu7Q7LuCPo0-OABH7jAnL-ZfHAGOI8vgxOE2_gtDtXPRvlNfHj3S2XcYDcCigtyoiez5SPJYTqzgWu0_-Z=s512",
+      "sizes": "128x128"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEiFzdsljRzY4o1AX8cLozbhQTD64HAAzOs0LEilly5lWPoHoxIY6AvwDwjJxBg7VbkrC_-Kzy_UoDfpjuoq62wsTJ42hUx8GBRcbQ2vy-fu7Q7LuCPo0-OABH7jAnL-ZfHAGOI8vgxOE2_gtDtXPRvlNfHj3S2XcYDcCigtyoiez5SPJYTqzgWu0_-Z=s512",
+      "sizes": "144x144"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEjamt2OoVMAFAL54RsMgJo_2nOfCwDFqdFapk1GSbZefVoAnGjzZuGTeitocm58yn6Wuctdc_Y2YyeEe4jZyuF_vqv7RGafzj5IUKE_kv8yXk40tztX9dlA8DkGbGTUcqZQrDTLqPoCEiae1r9S5aKqu2NqNNq-9ogmqsV6U533Qat7W7m0usaGvrqw=s16000",
+      "sizes": "152x152"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEjamt2OoVMAFAL54RsMgJo_2nOfCwDFqdFapk1GSbZefVoAnGjzZuGTeitocm58yn6Wuctdc_Y2YyeEe4jZyuF_vqv7RGafzj5IUKE_kv8yXk40tztX9dlA8DkGbGTUcqZQrDTLqPoCEiae1r9S5aKqu2NqNNq-9ogmqsV6U533Qat7W7m0usaGvrqw=s16000",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEiFzdsljRzY4o1AX8cLozbhQTD64HAAzOs0LEilly5lWPoHoxIY6AvwDwjJxBg7VbkrC_-Kzy_UoDfpjuoq62wsTJ42hUx8GBRcbQ2vy-fu7Q7LuCPo0-OABH7jAnL-ZfHAGOI8vgxOE2_gtDtXPRvlNfHj3S2XcYDcCigtyoiez5SPJYTqzgWu0_-Z=s16000",
+      "sizes": "384x384"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEiFzdsljRzY4o1AX8cLozbhQTD64HAAzOs0LEilly5lWPoHoxIY6AvwDwjJxBg7VbkrC_-Kzy_UoDfpjuoq62wsTJ42hUx8GBRcbQ2vy-fu7Q7LuCPo0-OABH7jAnL-ZfHAGOI8vgxOE2_gtDtXPRvlNfHj3S2XcYDcCigtyoiez5SPJYTqzgWu0_-Z=s16000",
+      "sizes": "512x512"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEiFzdsljRzY4o1AX8cLozbhQTD64HAAzOs0LEilly5lWPoHoxIY6AvwDwjJxBg7VbkrC_-Kzy_UoDfpjuoq62wsTJ42hUx8GBRcbQ2vy-fu7Q7LuCPo0-OABH7jAnL-ZfHAGOI8vgxOE2_gtDtXPRvlNfHj3S2XcYDcCigtyoiez5SPJYTqzgWu0_-Z=s16000",
+      "sizes": "1024x1024"
+                                                                                                                                                            },
+                                                                                                                                                               ]
+                                                                                                                                                                                                                                                                                                      }
+  const json = JSON.stringify(data, null, 2)
+  return event.respondWith(
+      new Response(json, {
+            headers: {
+                    "content-type": "application/json;charset=UTF-8"
+                          }
+                              })
+                                )
+                                })
